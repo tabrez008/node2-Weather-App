@@ -41,8 +41,8 @@ app.get('' , (req , res) => {
 })
 app.get('/about' , (req , res) => {
     res.render('about' , {
-        title : 'about me',
-        name : 'tabrez'
+        title : 'About Me',
+        name : 'Tabrez'
     })
 })
 app.get('/help' , (req , res) => {
